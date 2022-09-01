@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "GridView";
+}
+
+<h2 style=" text-align: center; ">GridView</h2>
+<div>
+    <div style="display: flex;align-items: center">
+        <div>
+            @using (Html.BeginForm("GridView", "GridList", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" name="GetXmlFile" required value="upload" />
+                @ViewBag.Message
+                @ViewBag.ErrorMessage
+                
+                    <input type="submit" value="Browse" id="fileData" class="btn  btn-success" />  
+            }
+        </div>
+        
+    </div>
+    <br />
+    <br />
+    <div style="display: flex; align-items: center">
+        <div style="margin-left:15px;margin-right:15px;">
+            <label for="cars">Choose</label>
+            <select name="DropDownList1" class="dropdown-toggle-split">
+                <option>Select</option>
+            </select>
+        </div>
+        <div style="margin-left:15px;margin-right:15px;">
+            <label for="cars">Choose</label>
+            <select name="DropDownList1" class="dropdown-toggle-split">
+                <option>Select</option>
+            </select>
+        </div>
+        <div style="margin-left:15px;margin-right:15px;">
+            <label for="cars">Choose</label>
+            <select name="DropDownList1" class="dropdown-toggle-split">
+                <option>Select</option>
+            </select>
+        </div>
+        <div style="margin-left:15px;margin-right:15px;">
+            <label for="cars">Choose</label>
+            <select name="DropDownList1" class="dropdown-toggle-split">
+                <option>Select</option>
+            </select>
+        </div>
+        <div style=" margin-left: auto;">
+            <input type="button" value="Add" class="btn  btn-success" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <div style="display:flex;">
+        <table class="table table-dark table-hover" style="width: 80%; margin-bottom: 0px; text-align: center; ">
+            <thead>
+                <tr>
+                    <th>
+                        Column1
+                    </th>
+                    <th>
+                        Column2
+                    </th>
+                    <th>
+                        Column3
+                    </th>
+                    <th>
+                        Column4
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        row1
+                    </td>
+                    <td>
+                        row1
+                    </td>
+                    <td>
+                        row1
+                    </td>
+                    <td>
+                        row1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        row2
+                    </td>
+                    <td>
+                        row2
+                    </td>
+                    <td>
+                        row2
+                    </td>
+                    <td>
+                        row2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-left: auto; margin-top: auto">
+            <input type="button" value="Extract" class="btn  btn-success" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div style="display:flex;">
+        <table class="table table-bordered" style="width: 50%; margin-bottom: 0px; text-align: center; ">
+            <thead>
+                <tr>
+                    <th>
+                        Key
+                    </th>
+                    <th>
+                        Value
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        row1
+                    </td>
+                    <td>
+                        row1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        row2
+                    </td>
+                    <td>
+                        row2
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-left: auto; margin-top: auto">
+            <input type="button" value="Export" class="btn  btn-success" />
+        </div>
+    </div>
+
+</div>
