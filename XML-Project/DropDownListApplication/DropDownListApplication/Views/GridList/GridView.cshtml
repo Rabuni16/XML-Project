@@ -1,146 +1,471 @@
 ﻿
 @{
     ViewBag.Title = "GridView";
+
 }
 
 <h2 style=" text-align: center; ">GridView</h2>
 <div>
+
     <div style="display: flex;align-items: center">
         <div>
-            @using (Html.BeginForm("GridView", "GridList", FormMethod.Post, new { enctype = "multipart/form-data" }))
-            {
-                <input type="file" name="GetXmlFile" required value="upload" />
-                @ViewBag.Message
-                @ViewBag.ErrorMessage
-                
-                    <input type="submit" value="Browse" id="fileData" class="btn  btn-success" />  
-            }
-        </div>
-        
-    </div>
-    <br />
-    <br />
-    <div style="display: flex; align-items: center">
-        <div style="margin-left:15px;margin-right:15px;">
-            <label for="cars">Choose</label>
-            <select name="DropDownList1" class="dropdown-toggle-split">
-                <option>Select</option>
-            </select>
-        </div>
-        <div style="margin-left:15px;margin-right:15px;">
-            <label for="cars">Choose</label>
-            <select name="DropDownList1" class="dropdown-toggle-split">
-                <option>Select</option>
-            </select>
-        </div>
-        <div style="margin-left:15px;margin-right:15px;">
-            <label for="cars">Choose</label>
-            <select name="DropDownList1" class="dropdown-toggle-split">
-                <option>Select</option>
-            </select>
-        </div>
-        <div style="margin-left:15px;margin-right:15px;">
-            <label for="cars">Choose</label>
-            <select name="DropDownList1" class="dropdown-toggle-split">
-                <option>Select</option>
-            </select>
-        </div>
-        <div style=" margin-left: auto;">
-            <input type="button" value="Add" class="btn  btn-success" />
+            <input type="file" id="FileUpload1" required />
+            <input type="button" value="Browse" id="btnUpload" onclick="fileUpload()" class="btn  btn-success" />
         </div>
     </div>
     <br />
     <br />
-    <div style="display:flex;">
-        <table class="table table-dark table-hover" style="width: 80%; margin-bottom: 0px; text-align: center; ">
-            <thead>
-                <tr>
-                    <th>
-                        Column1
-                    </th>
-                    <th>
-                        Column2
-                    </th>
-                    <th>
-                        Column3
-                    </th>
-                    <th>
-                        Column4
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        row1
-                    </td>
-                    <td>
-                        row1
-                    </td>
-                    <td>
-                        row1
-                    </td>
-                    <td>
-                        row1
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        row2
-                    </td>
-                    <td>
-                        row2
-                    </td>
-                    <td>
-                        row2
-                    </td>
-                    <td>
-                        row2
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <div style="margin-left: auto; margin-top: auto">
-            <input type="button" value="Extract" class="btn  btn-success" />
-        </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <div style="display:flex;">
-        <table class="table table-bordered" style="width: 50%; margin-bottom: 0px; text-align: center; ">
-            <thead>
-                <tr>
-                    <th>
-                        Key
-                    </th>
-                    <th>
-                        Value
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        row1
-                    </td>
-                    <td>
-                        row1
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        row2
-                    </td>
-                    <td>
-                        row2
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <div style="margin-left: auto; margin-top: auto">
-            <input type="button" value="Export" class="btn  btn-success" />
-        </div>
-    </div>
 
-</div>
+
+    <div>
+        <div style="display: flex; align-items: center">
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">Level 1</label>
+                <select name="DropDownList2" class="dropdown-toggle-split" id="FistDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">Level 2</label>
+                <select name="DropDownList2" class="dropdown-toggle-split" id="SecondDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">Level 3</label>
+                <select name="DropDownList2" class="dropdown-toggle-split" id="ThirdDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">Level 4</label>
+                <select name="DropDownList2" class="dropdown-toggle-split" id="FourthDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div style="display: flex; align-items: center">
+                <div style="margin-left:15px;margin-right:15px;">
+                    <label for="cars">Level 5</label>
+                    <select name="DropDownList2" class="dropdown-toggle-split" id="FifthDropDown">
+                        <option>Select</option>
+                    </select>
+                </div>
+                <div style="margin-left:15px;margin-right:15px;">
+                    <label for="cars">Level 6</label>
+                    <select name="DropDownList3" class="dropdown-toggle-split" id="SixthDropDown">
+                        <option>Select</option>
+                    </select>
+                </div>
+                <div style="margin-left:15px;margin-right:15px;">
+                    <label for="cars">Level 7</label>
+                    <select name="DropDownList4" class="dropdown-toggle-split" id="SeventhDropDown">
+                        <option>Select</option>
+                    </select>
+                </div>
+                <div style=" margin-left: auto;">
+                    <input type="button" value="Add" class="btn  btn-success" />
+                </div>
+            </div>
+        </div>
+    </div>
+            <br />
+            <br />
+            <p id="para"></p>
+            <div style="display:flex;">
+                <table class="table table-dark table-hover" style="width: 80%; margin-bottom: 0px; text-align: center; ">
+                    <thead>
+                        <tr>
+                            <th>
+                                Level 1
+                            </th>
+                            <th>
+                                Level 2
+                            </th>
+                            <th>
+                                Level 3
+                            </th>
+                            <th>
+                                Level 4
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                row1
+                            </td>
+                            <td>
+                                row1
+                            </td>
+                            <td>
+                                row1
+                            </td>
+                            <td>
+                                row1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                row2
+                            </td>
+                            <td>
+                                row2
+                            </td>
+                            <td>
+                                row2
+                            </td>
+                            <td>
+                                row2
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="margin-left: auto; margin-top: auto">
+                    <input type="button" value="Extract" class="btn  btn-success" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div style="display:flex;">
+                <table class="table table-bordered" style="width: 50%; margin-bottom: 0px; text-align: center; ">
+                    <thead>
+                        <tr>
+                            <th>
+                                Key
+                            </th>
+                            <th>
+                                Value
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                row1
+                            </td>
+                            <td>
+                                row1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                row2
+                            </td>
+                            <td>
+                                row2
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="margin-left: auto; margin-top: auto">
+                    <input type="button" value="Export" class="btn  btn-success" />
+                </div>
+            </div>
+        </div>
+
+        @section Scripts{
+            <script type="text/javascript">
+        function clear(data) {
+            switch (data) {
+                case 1:
+                    document.getElementById("SecondDropDown").options.length = 1;
+                case 2:
+                    document.getElementById("ThirdDropDown").options.length = 1;
+                case 3:
+                    document.getElementById("FourthDropDown").options.length =1;
+                case 4:
+                    document.getElementById("FifthDropDown").options.length = 1;
+                case 5:
+                    document.getElementById("SixthDropDown").options.length = 1;
+                case 6:
+                    document.getElementById("SeventhDropDown").options.length = 1;
+            }
+        }
+
+        //First DropDownList Script
+        function fileUpload() {
+           var files=$("#FileUpload1").get(0).files
+            var fileData = new FormData();
+            fileData.append(files[0].name, files[0]);
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("NodeObject")",
+
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("FistDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i)+"FistDropDown"
+                        drop1.add(option)
+
+                        if (data[i].value === null)
+                        {
+                            value.push("NULL")
+                        } else
+                        {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            secondDropDown();
+                        } else {
+                            clear(1)
+                            document.getElementById("para").innerHTML=""
+                            document.getElementById("para").innerHTML ="Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+
+                }
+            })
+        }
+
+        //second DropDownList Script
+        function secondDropDown() {
+            clear(1)
+            debugger
+            var nodeName = document.getElementById("FistDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("SecondDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " SecondDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            thirdDropDown();
+                        } else {
+                            clear(2)
+                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+
+                }
+            });
+
+            //third DropDownList Script
+        }
+        function thirdDropDown() {
+            clear(2)
+            var nodeName = document.getElementById("SecondDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("ThirdDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " ThirdDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            fourthDropDown();
+                        } else {
+                            clear(3)
+                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+
+                }
+            });
+        }
+
+        //fourth DropDownList Script
+        function fourthDropDown() {
+            clear(3)
+            debugger
+            var nodeName = document.getElementById( "ThirdDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("FourthDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " FourthDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            fifthDropDown();
+                        } else {
+                            clear(4)
+                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+
+                }
+            });
+        }
+
+        //Fifth DropDownList Script
+        function fifthDropDown() {
+            clear(4)
+
+            var nodeName = document.getElementById("FourthDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("FifthDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " FifthDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            sixthDropDown();
+                        } else {
+                            clear(5)
+                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+                }
+            });
+        }
+
+        //sixth DropDownList Script
+        function sixthDropDown() {
+            clear(5)
+            var nodeName = document.getElementById("FifthDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("SixthDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " SixthDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").innerHTML = ""
+                            seventhDropDown();
+                        } else {
+                            clear(6)
+                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                        }
+                    })
+                    console.log(data)
+                }
+            });
+        }
+
+        //seventhDropDown script
+        function seventhDropDown() {
+            clear(6)
+            var nodeName = document.getElementById("SixthDropDown").value
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("GetFirstChileNodeByName")",
+                data: { tagName: nodeName },
+                datatype: 'json',
+                success: function (data) {
+                    var code = []
+                    var value = []
+                    var drop1 = document.getElementById("SeventhDropDown");
+                    for (var i = 0; i < data.length; i++) {
+                        code.push(data[i].code)
+                        var option = document.createElement("option")
+                        option.text = data[i].code
+                        option.id = String(i) + " SeventhDropDown";
+                        drop1.add(option)
+                        if (data[i].value === null) {
+                            value.push("NULL")
+                        } else {
+                            value.push(data[i].value)
+                        }
+                    }
+                    console.log(data)
+                }
+            });
+        }
+            </script>
+        }
