@@ -1,176 +1,227 @@
-﻿
+﻿@model DropDownListApplication.Models.ExportExcel
 @{
-    ViewBag.Title = "GridView";
-
+    ViewBag.Title = "XML Extraction and Export";
 }
 
-<h2 style=" text-align: center; ">GridView</h2>
-<div>
 
-    <div style="display: flex;align-items: center">
+
+<div class="tag-overalldiv" style=" margin-bottom: 30px" >
+    <div class="tag-header" style="margin-left: 83px; margin-top: 30px ;padding-top: 20px ">
+        <h2 >XML Extraction and Export</h2>
+    </div>
+
+    <hr style="margin-left: 83px;" />
+    <div class="tag-uploader">
         <div>
-            <input type="file" id="FileUpload1" required />
-            <input type="button" value="Browse" id="btnUpload" onclick="fileUpload()" class="btn  btn-success" />
+            <input type="file" id="FileUpload1" onclick="fileChange()" value="null" required />
+        </div>
+        <div style="margin-left:63px">
+            <input type="button" value="Upload" id="btnUpload" onclick="fileUpload()" class="btn tag-button " style="width: 100px;" />
+        </div>
+    </div>
+
+    <div class="tag-overaldropdown " style="margin-bottom: 20px; margin-top: 10px" >
+        <div class="tag-flex tag-dropdownset1" flex; align-items: center">
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 1</label>
+                <select name="DropDownList2" class="dropdown-toggle-split dropdownlist  " id="FistDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;" >
+                <label for="cars">level 2</label>
+                <select name="DropDownList2" class="dropdown-toggle-split dropdownlist " id="SecondDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 3</label>
+                <select name="DropDownList2" class="dropdown-toggle-split dropdownlist " id="ThirdDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 4</label>
+                <select name="DropDownList2" class="dropdown-toggle-split dropdownlist " id="FourthDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="tag-flex tag-dropdownset1" align-items: center">
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 5</label>
+                <select name="DropDownList2" class="dropdown-toggle-split dropdownlist " id="FifthDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 6</label>
+                <select name="DropDownList3" class="dropdown-toggle-split dropdownlist" id="SixthDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+            <div style="margin-left:15px;margin-right:15px;">
+                <label for="cars">level 7</label>
+                <select name="DropDownList4" class="dropdown-toggle-split dropdownlist " id="SeventhDropDown">
+                    <option>Select</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="tag-flex">
+        <div style="text-align: center; margin-left: 300px; height: 60px;">
+            @*<input type="text" id="para" readonly style=" width: 1000%; " />*@
+            <textarea rows="5" id="para" cols="60" name="description" style=" width: 519px; height: 66px">
+         </textarea><br>
+
+        </div>
+        <div style=" margin-left: auto;">
+            <input type="button" onclick="addHandler()" value="Add" class="btn  tag-button" style="width: 100px;" />
+        </div>
+    </div>  
+    <div style="text-align:center">
+        <label style=" text-align: center; font-size: 30px; "size=" 50">List Of Items</label> 
+    </div>
+    <div class="tag-flex">
+        
+        <table class="table"  style="width: 95%;border:1px solid black;margin-bottom: 0px; margin-left: 25px">
+            <thead>
+                <tr>
+                    <th class="tabHead">
+                        Level 1
+                    </th>
+                    <th class="tabHead">
+                        Level 2
+                    </th>
+                    <th class="tabHead">
+                        Level 3
+                    </th>
+                    <th class="tabHead">
+                        Level 4
+                    </th>
+                    <th class="tabHead">
+                        Level 5
+                    </th>
+                    <th class="tabHead">
+                        Level 6
+                    </th>
+                    <th class="tabHead">
+                        Level 7
+                    </th>
+                    <th class="tabHead">
+                        Value
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="container" >
+            </tbody>
+        </table>
+        <div style="margin-left: auto; margin-top: auto">
+            <input type="button" value="Extract" onclick="extractHandler()" class="btn  tag-button" style="width: 100px;" />
         </div>
     </div>
     <br />
     <br />
+    <br />
+
+    <div style="display: flex; " id="Grid">
+        <table class="table" id="mytable" style="width: 50%; margin-bottom: 0px; margin-left: 25px; border:1px solid black">
+            <thead>
+                <tr>
+                    <th class="tabHead">
+                        Key
+                    </th>
+                    <th class="tabHead">
+                        Value
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="secondTable">  
+            </tbody>
+        </table>
 
 
-    <div>
-        <div style="display: flex; align-items: center">
-            <div style="margin-left:15px;margin-right:15px;">
-                <label for="cars">Level 1</label>
-                <select name="DropDownList2" class="dropdown-toggle-split" id="FistDropDown">
-                    <option>Select</option>
-                </select>
-            </div>
-
-            <div style="margin-left:15px;margin-right:15px;">
-                <label for="cars">Level 2</label>
-                <select name="DropDownList2" class="dropdown-toggle-split" id="SecondDropDown">
-                    <option>Select</option>
-                </select>
-            </div>
-
-            <div style="margin-left:15px;margin-right:15px;">
-                <label for="cars">Level 3</label>
-                <select name="DropDownList2" class="dropdown-toggle-split" id="ThirdDropDown">
-                    <option>Select</option>
-                </select>
-            </div>
-
-            <div style="margin-left:15px;margin-right:15px;">
-                <label for="cars">Level 4</label>
-                <select name="DropDownList2" class="dropdown-toggle-split" id="FourthDropDown">
-                    <option>Select</option>
-                </select>
-            </div>
+        <div style="margin-left: auto; margin-top: auto">
+            <input type="submit" value="Export" class="btn tag-button" id="btnExport" name="button" onclick="importHTML()" style="width: 100px;"  />
         </div>
-        <div>
-            <div style="display: flex; align-items: center">
-                <div style="margin-left:15px;margin-right:15px;">
-                    <label for="cars">Level 5</label>
-                    <select name="DropDownList2" class="dropdown-toggle-split" id="FifthDropDown">
-                        <option>Select</option>
-                    </select>
-                </div>
-                <div style="margin-left:15px;margin-right:15px;">
-                    <label for="cars">Level 6</label>
-                    <select name="DropDownList3" class="dropdown-toggle-split" id="SixthDropDown">
-                        <option>Select</option>
-                    </select>
-                </div>
-                <div style="margin-left:15px;margin-right:15px;">
-                    <label for="cars">Level 7</label>
-                    <select name="DropDownList4" class="dropdown-toggle-split" id="SeventhDropDown">
-                        <option>Select</option>
-                    </select>
-                </div>
-                <div style=" margin-left: auto;">
-                    <input type="button" value="Add" class="btn  btn-success" />
-                </div>
-            </div>
-        </div>
+
     </div>
-            <br />
-            <br />
-            <p id="para"></p>
-            <div style="display:flex;">
-                <table class="table table-dark table-hover" style="width: 80%; margin-bottom: 0px; text-align: center; ">
-                    <thead>
-                        <tr>
-                            <th>
-                                Level 1
-                            </th>
-                            <th>
-                                Level 2
-                            </th>
-                            <th>
-                                Level 3
-                            </th>
-                            <th>
-                                Level 4
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                row1
-                            </td>
-                            <td>
-                                row1
-                            </td>
-                            <td>
-                                row1
-                            </td>
-                            <td>
-                                row1
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                row2
-                            </td>
-                            <td>
-                                row2
-                            </td>
-                            <td>
-                                row2
-                            </td>
-                            <td>
-                                row2
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div style="margin-left: auto; margin-top: auto">
-                    <input type="button" value="Extract" class="btn  btn-success" />
-                </div>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div style="display:flex;">
-                <table class="table table-bordered" style="width: 50%; margin-bottom: 0px; text-align: center; ">
-                    <thead>
-                        <tr>
-                            <th>
-                                Key
-                            </th>
-                            <th>
-                                Value
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                row1
-                            </td>
-                            <td>
-                                row1
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                row2
-                            </td>
-                            <td>
-                                row2
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div style="margin-left: auto; margin-top: auto">
-                    <input type="button" value="Export" class="btn  btn-success" />
-                </div>
-            </div>
-        </div>
 
-        @section Scripts{
-            <script type="text/javascript">
+
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+
+        var b = null;
+        var valArr=[]
+        function fileChange() {
+            document.getElementById("FileUpload1").value = null;
+            var select;
+            select = document.getElementById("FistDropDown");
+            clearOption(select);
+            select = document.getElementById("SecondDropDown");
+            clearOption(select);
+            select = document.getElementById("ThirdDropDown");
+            clearOption(select);
+            select = document.getElementById("FourthDropDown");
+            clearOption(select);
+            select = document.getElementById("FifthDropDown");
+            clearOption(select);
+            select = document.getElementById("SixthDropDown");
+            clearOption(select);
+            select = document.getElementById("SeventhDropDown");
+            clearOption(select);
+            document.getElementById("para").innerHTML = "";
+            b = null;
+        }
+        function clearOption(select) {
+            var length = select.options.length;
+            for (i = length - 1; i >= 1; i--) {
+                select.options[i] = null;
+            }
+        }
+       
+        var levelarr = [];
+        
+        
+
+        function importHTML() {
+
+            console.log(levelarr);
+
+            var nodeName =  document.getElementById("FistDropDown").value
+            var nodeName2 = document.getElementById("SecondDropDown").value
+            $.ajax({
+                type: "POST",
+                url: 'GridList/Export',
+                
+                data: { value: nodeName, key: nodeName2 },
+                datatype: 'json',
+                success: function (data) {
+                    debugger
+                }
+            })
+
+
+            var parent = document.getElementById("container");
+            while (parent.firstChild) {
+                parent.removeChild(parent.lastChild);
+            }
+            var myNode = document.getElementById("secondTable");
+            while (myNode.firstChild) {
+                myNode.removeChild(myNode.lastChild);
+            }
+            levelarr = [];
+            flag = true;
+        }
+
+
         function clear(data) {
             switch (data) {
                 case 1:
@@ -185,18 +236,26 @@
                     document.getElementById("SixthDropDown").options.length = 1;
                 case 6:
                     document.getElementById("SeventhDropDown").options.length = 1;
+                case 7:
+                    document.getElementById("SeventhDropDown").options.length = 1;
             }
         }
 
         //First DropDownList Script
+        let a;
         function fileUpload() {
            var files=$("#FileUpload1").get(0).files
-            var fileData = new FormData();
-            fileData.append(files[0].name, files[0]);
+                    var fileData = new FormData();
+                    for (var i = 0; i < files.length; i++) {
+                        fileData.append(files[i].name, files[i]);
+                    }
+
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("NodeObject")",
-
+                contentType: false,
+                processData: false,
+                data: fileData,
                 success: function (data) {
                     var code = []
                     var value = []
@@ -211,22 +270,29 @@
                         if (data[i].value === null)
                         {
                             value.push("NULL")
+                            a = value;
+                           
                         } else
                         {
                             value.push(data[i].value)
+                            console.log(data[i].value)
+                            a = value;
+                           
                         }
                     }
                     drop1.addEventListener("change", () => {
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").value= ""
                             secondDropDown();
                         } else {
                             clear(1)
-                            document.getElementById("para").innerHTML=""
-                            document.getElementById("para").innerHTML ="Value = " + value[code.indexOf(drop1.value)]
+                            b=value[code.indexOf(drop1.value)]
+                            document.getElementById("para").value=""
+                            document.getElementById("para").value=  value[code.indexOf(drop1.value)]
+
                         }
                     })
-                    console.log(data)
+
 
                 }
             })
@@ -235,12 +301,12 @@
         //second DropDownList Script
         function secondDropDown() {
             clear(1)
-            debugger
-            var nodeName = document.getElementById("FistDropDown").value
+            var nodeName = "/"+ document.getElementById("FistDropDown").value
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: nodeName, uploadFileName: filename  },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -254,21 +320,26 @@
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
+                            a = value;
+                           
                         } else {
                             value.push(data[i].value)
+                            a = value;
+                            
                         }
                     }
                     drop1.addEventListener("change", () => {
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").value = ""
                             thirdDropDown();
                         } else {
                             clear(2)
-                            document.getElementById("para").innerHTML = ""
-                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                           b= value[code.indexOf(drop1.value)]
+                            document.getElementById("para").value= ""
+                            document.getElementById("para").value= value[code.indexOf(drop1.value)]
                         }
                     })
-                    console.log(data)
+
 
                 }
             });
@@ -277,53 +348,61 @@
         }
         function thirdDropDown() {
             clear(2)
+            var nodeName2 = document.getElementById("FistDropDown").value
             var nodeName = document.getElementById("SecondDropDown").value
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            var result = "//" + nodeName2 + "/" + nodeName;
             $.ajax({
-                type: "POST",
+               type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: result, uploadFileName: filename},
                 datatype: 'json',
                 success: function (data) {
-                    var code = []
+                       var code = []
                     var value = []
                     var drop1 = document.getElementById("ThirdDropDown");
-                    for (var i = 0; i < data.length; i++) {
-                        code.push(data[i].code)
-                        var option = document.createElement("option")
-                        option.text = data[i].code
-                        option.id = String(i) + " ThirdDropDown";
-                        drop1.add(option)
-                        if (data[i].value === null) {
-                            value.push("NULL")
+                       for (var i = 0; i < data.length; i++) {
+                           code.push(data[i].code)
+                           var option = document.createElement("option")
+                           option.text = data[i].code
+                           option.id = String(i) + " ThirdDropDown";
+                           drop1.add(option)
+                           if (data[i].value === null) {
+                               value.push("NULL")
+                               a = value;
+                              
                         } else {
-                            value.push(data[i].value)
+                               value.push(data[i].value)
+                               a = value;
+                              
                         }
-                    }
-                    drop1.addEventListener("change", () => {
-                        if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
-                            fourthDropDown();
-                        } else {
-                            clear(3)
-                            document.getElementById("para").innerHTML = ""
-                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
-                        }
-                    })
-                    console.log(data)
-
+                       }
+                       drop1.addEventListener("change", () => {
+                           if (value[code.indexOf(drop1.value)] == "NULL") {
+                               document.getElementById("para").value = ""
+                               fourthDropDown();
+                           } else {
+                               clear(3)
+                              b= value[code.indexOf(drop1.value)]
+                               document.getElementById("para").value= ""
+                               document.getElementById("para").value =  value[code.indexOf(drop1.value)]
+                           }
+                       })
                 }
-            });
+               });
         }
 
         //fourth DropDownList Script
         function fourthDropDown() {
             clear(3)
-            debugger
-            var nodeName = document.getElementById( "ThirdDropDown").value
+            var nodeName2 = document.getElementById("SecondDropDown").value
+            var nodeName = document.getElementById("ThirdDropDown").value
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            var result = "//" + nodeName2 + "/" + nodeName;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: result, uploadFileName: filename },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -337,22 +416,25 @@
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
+                            a = value;
+                            
                         } else {
                             value.push(data[i].value)
+                            a = value;
+                           
                         }
                     }
                     drop1.addEventListener("change", () => {
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").value = ""
                             fifthDropDown();
                         } else {
                             clear(4)
-                            document.getElementById("para").innerHTML = ""
-                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                            b=value[code.indexOf(drop1.value)]
+                            document.getElementById("para").value= ""
+                            document.getElementById("para").value =  value[code.indexOf(drop1.value)]
                         }
                     })
-                    console.log(data)
-
                 }
             });
         }
@@ -360,12 +442,14 @@
         //Fifth DropDownList Script
         function fifthDropDown() {
             clear(4)
-
+            var nodeName2 = document.getElementById("ThirdDropDown").value
             var nodeName = document.getElementById("FourthDropDown").value
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            var result = "//" + nodeName2 + "/" + nodeName;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: result, uploadFileName: filename },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -379,21 +463,25 @@
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
+                            a = value;
+                           
                         } else {
                             value.push(data[i].value)
+                            a = value;
+                           
                         }
                     }
                     drop1.addEventListener("change", () => {
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").value = ""
                             sixthDropDown();
                         } else {
                             clear(5)
-                            document.getElementById("para").innerHTML = ""
-                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                           b= value[code.indexOf(drop1.value)]
+                            document.getElementById("para").value= ""
+                            document.getElementById("para").value= value[code.indexOf(drop1.value)]
                         }
                     })
-                    console.log(data)
                 }
             });
         }
@@ -401,11 +489,14 @@
         //sixth DropDownList Script
         function sixthDropDown() {
             clear(5)
+            var nodeName2 = document.getElementById("FourthDropDown").value
             var nodeName = document.getElementById("FifthDropDown").value
+            var result = "//" + nodeName2 + "/" + nodeName;
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: result, uploadFileName: filename },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -419,21 +510,25 @@
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
+                            a = value;
+                            
                         } else {
                             value.push(data[i].value)
+                            a = value;
+                           
                         }
                     }
                     drop1.addEventListener("change", () => {
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").innerHTML = ""
+                            document.getElementById("para").value = ""
                             seventhDropDown();
                         } else {
                             clear(6)
-                            document.getElementById("para").innerHTML = ""
-                            document.getElementById("para").innerHTML = "Value = " + value[code.indexOf(drop1.value)]
+                            b = value[code.indexOf(drop1.value)];
+                            document.getElementById("para").value = ""
+                            document.getElementById("para").value =value[code.indexOf(drop1.value)]
                         }
                     })
-                    console.log(data)
                 }
             });
         }
@@ -441,11 +536,14 @@
         //seventhDropDown script
         function seventhDropDown() {
             clear(6)
+            var nodeName2 = document.getElementById("FifthDropDown").value
             var nodeName = document.getElementById("SixthDropDown").value
+            var result = "//" + nodeName2 + "/" + nodeName;
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName },
+                data: { tagName: result, uploadFileName: filename },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -459,13 +557,110 @@
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
+                            a = value;
+                           
                         } else {
                             value.push(data[i].value)
+                            a = value;
+                            
                         }
                     }
-                    console.log(data)
+                    drop1.addEventListener("change", () => {
+                        if (value[code.indexOf(drop1.value)] == "NULL") {
+                            document.getElementById("para").value = ""
+                            seventhDropDown();
+                        } else {
+                            clear(7)
+                            b = value[code.indexOf(drop1.value)];
+                            document.getElementById("para").value = ""
+                            document.getElementById("para").value =  value[code.indexOf(drop1.value)]
+                        }
+                    })
                 }
             });
         }
-            </script>
+       
+       
+        
+
+        function addHandler() {
+            console.log(b)
+            if (b != null) {
+                    var level = [
+                        document.getElementById("FistDropDown").value,
+                        document.getElementById("SecondDropDown").value,
+                        document.getElementById("ThirdDropDown").value,
+                        document.getElementById("FourthDropDown").value,
+                        document.getElementById("FifthDropDown").value,
+                        document.getElementById("SixthDropDown").value,
+                        document.getElementById("SeventhDropDown").value
+                    ];
+                    var str = '';
+                    for (var j = 0; j < level.length; j++) {
+                        if (level[j] == 'Select') {
+                            break;
+                        }
+                        str = str + level[j] + '/';
+                    }
+                    console.log(str);
+                    levelarr.push(str)
+                    var parent = document.getElementById("container");
+                    var tr = document.createElement("tr");
+                tr.setAttribute("id", "row");
+                
+                    parent.appendChild(tr);
+
+                    console.log("hai",level);
+                    for (var i = 0; i < level.length; i++) {
+                        var tag = document.createElement("td");
+                        tag.setAttribute("class", "tabHead");
+                        if (level[i] == "Select") {
+                            tag.innerHTML = "N/A";
+                        }
+                        else
+                            tag.innerHTML = level[i];
+                        tr.appendChild(tag);
+                    }
+                var para = document.getElementById("para").value;
+                valArr.push(para);
+                    var tag = document.createElement("td");
+                    tag.innerHTML = para;
+                    tr.appendChild(tag);
+
+                
+                b = null;
+            }
+           
         }
+
+        function clearFile() {
+            document.getElementById("FileUpload1").value = null;
+        }
+
+        function extractHandler() {
+            var myNode = document.getElementById("secondTable");
+            while (myNode.firstChild) {
+                myNode.removeChild(myNode.lastChild);
+            }
+
+
+            var p = document.getElementById("secondTable");
+            for (var i = 0; i < levelarr.length; i++) {
+                var tableRow = document.createElement("tr");
+                    p.appendChild(tableRow)
+                    var tag = document.createElement("td");
+                var tag1 = document.createElement("td");
+                tag.setAttribute("class", "tabHead");
+                    tag.innerHTML = levelarr[i];
+                    tableRow.appendChild(tag);
+                   // var para = document.getElementById("para").value;
+                   
+                tag1.innerHTML = valArr[i];
+                    tableRow.appendChild(tag1);
+            }
+            
+            
+        }
+
+    </script>
+}

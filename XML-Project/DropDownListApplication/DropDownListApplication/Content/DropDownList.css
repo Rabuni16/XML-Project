@@ -1,0 +1,77 @@
+﻿body {
+
+}
+
+.tag-header {
+    text-align: center;
+    height: 65px;
+    width: 100%;
+
+}
+.tag-cointainer {
+    width: 950px;
+    background-color: white ;
+    border-radius: 20px 20px 20px 20px;
+    height: 672px;
+}
+.tag-uploader {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    margin-left: 70px;
+    margin-right: 15px;
+}
+.tag-button {
+    color: white;
+    background-color: #2461b4;
+    width: 100px;
+}
+.tag-table {
+    text-align: center;
+    background-color: #f4f2ee
+}
+.tag-center {
+
+    margin: auto;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.tag-flex {
+    align-items: center;
+    display: flex;
+}
+.tag-overaldropdown {
+    height: 149px
+}
+.tag-dropdownset1 {
+    width: 100px;
+    height:70px;
+    align-items: center;
+}
+.tabHead{
+    border-right-width:1px;
+    border-color:black;
+
+}
+
+.tag-overalldiv {
+    width: 950px;
+    height: 650px;
+}
+.tag-overaldropdown {
+     margin-left: 16px;
+}
+input.btn.tag-button {
+    margin-right: -116px;
+    background-color: #15cdf2;
+}
+input#FileUpload1 {
+    margin-right: 602px;
+}
+
+
+
+
