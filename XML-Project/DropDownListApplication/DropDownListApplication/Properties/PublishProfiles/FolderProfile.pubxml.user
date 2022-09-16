@@ -1,0 +1,1676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\app.publish\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 16:29:20</publishTime>
+    </File>
+    <File Include="bin/Azure.Core.dll">
+      <publishTime>09/09/2022 17:00:11</publishTime>
+    </File>
+    <File Include="bin/Ben.Demystifier.dll">
+      <publishTime>11/21/2018 20:33:24</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.dll">
+      <publishTime>09/09/2022 17:00:12</publishTime>
+    </File>
+    <File Include="bin/ClosedXML.pdb">
+      <publishTime>09/09/2022 17:00:12</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:30</publishTime>
+    </File>
+    <File Include="bin/DataTable2Excel.dll">
+      <publishTime>09/09/2022 17:00:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:48</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:33:28</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:48</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:28</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:30</publishTime>
+    </File>
+    <File Include="bin/DnsClient.dll">
+      <publishTime>06/11/2022 02:07:26</publishTime>
+    </File>
+    <File Include="bin/DocumentFormat.OpenXml.dll">
+      <publishTime>09/09/2022 17:00:13</publishTime>
+    </File>
+    <File Include="bin/DropDownListApplication.dll">
+      <publishTime>09/15/2022 13:23:47</publishTime>
+    </File>
+    <File Include="bin/DropDownListApplication.pdb">
+      <publishTime>09/15/2022 13:23:47</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>08/30/2022 18:25:02</publishTime>
+    </File>
+    <File Include="bin/EPPlus.Interfaces.dll">
+      <publishTime>03/07/2022 20:19:54</publishTime>
+    </File>
+    <File Include="bin/EPPlus.System.Drawing.dll">
+      <publishTime>03/07/2022 20:19:56</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:33:08</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:28</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/ExcelNumberFormat.dll">
+      <publishTime>09/09/2022 17:00:15</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:04</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:28</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:02</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:48</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:48</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.dll">
+      <publishTime>09/09/2022 17:00:16</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/libsnappy64.dylib">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/libsnappy64.so">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/libzstd.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/libzstd.dylib">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/libzstd.so">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Azure.DevOps.Comments.WebApi.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>09/09/2022 17:00:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>09/09/2022 17:00:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>09/09/2022 17:00:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>09/09/2022 17:00:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>09/09/2022 17:00:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>09/09/2022 17:00:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Graph.Core.dll">
+      <publishTime>09/09/2022 17:00:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Graph.dll">
+      <publishTime>09/09/2022 17:00:19</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Identity.Client.dll">
+      <publishTime>09/09/2022 17:00:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>09/09/2022 17:00:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>01/15/2020 14:37:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Clients.ActiveDirectory.pdb">
+      <publishTime>01/15/2020 14:37:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>09/09/2022 17:00:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>09/09/2022 17:00:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>09/09/2022 17:00:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>09/09/2022 17:00:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>09/09/2022 17:00:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IO.RecyclableMemoryStream.dll">
+      <publishTime>03/11/2021 05:18:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build.Client.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build.Common.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build2.WebApi.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Client.dll">
+      <publishTime>01/08/2021 05:33:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Common.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Core.WebApi.dll">
+      <publishTime>01/08/2021 05:33:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Dashboards.WebApi.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.DeleteTeamProject.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Diff.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Discussion.Client.dll">
+      <publishTime>01/08/2021 05:33:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Git.Client.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.Client.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.Common.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll">
+      <publishTime>01/08/2021 05:35:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Policy.WebApi.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.ProjectManagement.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.SharePointReporting.Integration.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.SourceControl.WebApi.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Test.WebApi.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestImpact.Client.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.Client.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.Common.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.WebApi.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Client.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Common.dll">
+      <publishTime>01/08/2021 05:35:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Common.Integration.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Wiki.WebApi.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Work.WebApi.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Common.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.Client.Interactive.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.Common.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.TestManagement.TestPlanning.WebApi.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.TestResults.WebApi.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.WebApi.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Win32.Registry.dll">
+      <publishTime>10/20/2020 00:07:20</publishTime>
+    </File>
+    <File Include="bin/mongocrypt.dll">
+      <publishTime>07/30/2022 02:21:36</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>07/30/2022 05:47:20</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Core.dll">
+      <publishTime>07/30/2022 05:47:26</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>07/30/2022 05:47:42</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Libmongocrypt.dll">
+      <publishTime>07/30/2022 05:26:10</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 06:26:44</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:24</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:35:28</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:46</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:10</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:04</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:04</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/SharpCompress.dll">
+      <publishTime>11/22/2021 14:51:26</publishTime>
+    </File>
+    <File Include="bin/snappy32.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/snappy64.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="bin/Syncfusion.Compression.Base.dll">
+      <publishTime>09/09/2022 17:00:24</publishTime>
+    </File>
+    <File Include="bin/Syncfusion.Licensing.dll">
+      <publishTime>09/09/2022 17:00:24</publishTime>
+    </File>
+    <File Include="bin/Syncfusion.XlsIO.Base.dll">
+      <publishTime>09/09/2022 17:00:25</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>09/09/2022 17:00:26</publishTime>
+    </File>
+    <File Include="bin/System.Collections.Immutable.dll">
+      <publishTime>07/19/2017 15:31:28</publishTime>
+    </File>
+    <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>09/09/2022 17:00:28</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>09/09/2022 17:00:30</publishTime>
+    </File>
+    <File Include="bin/System.Memory.Data.dll">
+      <publishTime>09/09/2022 17:00:30</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>09/09/2022 17:00:30</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 18:30:36</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WinHttpHandler.dll">
+      <publishTime>09/09/2022 17:00:30</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>09/09/2022 17:00:31</publishTime>
+    </File>
+    <File Include="bin/System.Reflection.Metadata.dll">
+      <publishTime>07/19/2017 15:31:32</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/09/2022 17:00:37</publishTime>
+    </File>
+    <File Include="bin/System.Security.AccessControl.dll">
+      <publishTime>10/20/2020 00:14:38</publishTime>
+    </File>
+    <File Include="bin/System.Security.Principal.Windows.dll">
+      <publishTime>10/20/2020 00:16:28</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encoding.CodePages.dll">
+      <publishTime>10/20/2020 00:16:44</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encodings.Web.dll">
+      <publishTime>09/09/2022 17:00:43</publishTime>
+    </File>
+    <File Include="bin/System.Text.Json.dll">
+      <publishTime>09/09/2022 17:00:44</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Extensions.dll">
+      <publishTime>09/09/2022 17:00:44</publishTime>
+    </File>
+    <File Include="bin/System.ValueTuple.dll">
+      <publishTime>09/09/2022 17:00:45</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 18:31:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/28/2018 18:32:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:04</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:30</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:04</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:28</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:34:40</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:28</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:38</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:34:46</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 13:57:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:33:26</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:32:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>01/08/2021 05:33:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>01/08/2021 05:32:36</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>01/08/2021 05:32:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>01/08/2021 05:32:40</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>01/08/2021 05:34:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>01/08/2021 05:35:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>01/08/2021 05:35:06</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>01/08/2021 05:34:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>08/30/2022 20:12:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>08/30/2022 20:12:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>08/30/2022 20:12:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>08/30/2022 20:12:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css">
+      <publishTime>08/30/2022 20:12:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.css.map">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.rtl.min.css.map">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.css.map">
+      <publishTime>08/30/2022 20:12:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.css.map">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.min.css.map">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.css.map">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css">
+      <publishTime>08/30/2022 20:12:25</publishTime>
+    </File>
+    <File Include="Content/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>08/30/2022 20:12:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/30/2022 20:12:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/30/2022 20:12:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/30/2022 20:12:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/30/2022 20:12:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.css.map">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Content/bootstrap.rtl.min.css.map">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Content/DropDownList.css">
+      <publishTime>09/14/2022 14:05:28</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Core/Compression/Snappy/lib/linux/libsnappy64.so">
+      <publishTime>09/13/2022 10:25:22</publishTime>
+    </File>
+    <File Include="Core/Compression/Snappy/lib/osx/libsnappy64.dylib">
+      <publishTime>09/13/2022 10:25:22</publishTime>
+    </File>
+    <File Include="Core/Compression/Snappy/lib/win/snappy32.dll">
+      <publishTime>09/13/2022 10:25:21</publishTime>
+    </File>
+    <File Include="Core/Compression/Snappy/lib/win/snappy64.dll">
+      <publishTime>09/13/2022 10:25:21</publishTime>
+    </File>
+    <File Include="Core/Compression/Zstandard/lib/linux/libzstd.so">
+      <publishTime>09/13/2022 10:25:21</publishTime>
+    </File>
+    <File Include="Core/Compression/Zstandard/lib/osx/libzstd.dylib">
+      <publishTime>09/13/2022 10:25:21</publishTime>
+    </File>
+    <File Include="Core/Compression/Zstandard/lib/win/libzstd.dll">
+      <publishTime>09/13/2022 10:25:21</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="libmongocrypt.dylib">
+      <publishTime>09/13/2022 10:24:35</publishTime>
+    </File>
+    <File Include="libmongocrypt.so">
+      <publishTime>09/13/2022 10:24:34</publishTime>
+    </File>
+    <File Include="libsnappy64.dylib">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="libsnappy64.so">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="libzstd.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="libzstd.dylib">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="libzstd.so">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="mongocrypt.dll">
+      <publishTime>09/13/2022 10:24:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>08/30/2022 20:12:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.js.map">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.esm.min.js.map">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/30/2022 20:12:22</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>08/30/2022 20:12:21</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>08/30/2022 18:54:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>08/30/2022 18:54:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>08/30/2022 18:54:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>08/30/2022 18:54:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/30/2022 18:54:59</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>08/30/2022 18:54:52</publishTime>
+    </File>
+    <File Include="snappy32.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="snappy64.dll">
+      <publishTime>07/30/2022 04:54:12</publishTime>
+    </File>
+    <File Include="Views/GridList/GridView.cshtml">
+      <publishTime>09/15/2022 17:34:25</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/15/2022 17:53:48</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/30/2022 18:53:15</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/14/2022 18:25:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

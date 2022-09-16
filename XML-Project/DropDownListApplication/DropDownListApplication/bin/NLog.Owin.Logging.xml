@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLog.Owin.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:NLog.Owin.Logging.NlogFactoryExtensions">
+            <summary>
+            Extension class
+            </summary>
+        </member>
+        <member name="M:NLog.Owin.Logging.NlogFactoryExtensions.UseNLog(Owin.IAppBuilder)">
+            <summary>
+            Set the logger factory for this app builder to NLogFactory
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="M:NLog.Owin.Logging.NlogFactoryExtensions.UseNLog(Owin.IAppBuilder,System.Func{System.Diagnostics.TraceEventType,NLog.LogLevel})">
+            <summary>
+            Set the logger factory for this app builder to NLogFactory
+            </summary>
+            <param name="app"></param>
+            <param name="getLogLevel"></param>
+        </member>
+        <member name="T:NLog.Owin.Logging.NLogFactory">
+            <summary>
+            The OWIN ILoggerFactory implementation for NLog
+            </summary>
+        </member>
+        <member name="F:NLog.Owin.Logging.NLogFactory._getLogLevel">
+            <summary>
+            The log level translation function to get a NLog loglevel
+            </summary>
+        </member>
+        <member name="M:NLog.Owin.Logging.NLogFactory.#ctor">
+            <summary>
+            Create a logger factory with the default translation
+            </summary>
+        </member>
+        <member name="M:NLog.Owin.Logging.NLogFactory.#ctor(System.Func{System.Diagnostics.TraceEventType,NLog.LogLevel})">
+            <summary>
+            Create a logger factory with a custom translation routine
+            </summary>
+            <param name="getLogLevel"></param>
+        </member>
+        <member name="M:NLog.Owin.Logging.NLogFactory.DefaultGetLogLevel(System.Diagnostics.TraceEventType)">
+            <summary>
+            This is the standard translation
+            </summary>
+            <param name="traceEventType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NLog.Owin.Logging.NLogFactory.Create(System.String)">
+            <summary>
+            Creates a new ILogger instance of the given name.
+            </summary>
+            <param name="name">The logger context name.</param>
+            <returns>A logger instance.</returns>
+        </member>
+        <member name="T:NLog.Owin.Logging.NLogFactory.Logger">
+            <summary>
+            The wrapper arround NLog. Translates the logging levels
+            </summary>
+        </member>
+    </members>
+</doc>
