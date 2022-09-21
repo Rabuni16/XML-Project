@@ -9,5 +9,7 @@ namespace DropDownListApplication.Models
     {
         public string code { get; set; }
         public string value { get; set; }
+        public string Group { get; set; }
+        public string Value { get; set; }
     }
 }

@@ -667,3 +667,4 @@ C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplicat
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Owin.xml
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.xml
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.Owin.Logging.xml
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.config

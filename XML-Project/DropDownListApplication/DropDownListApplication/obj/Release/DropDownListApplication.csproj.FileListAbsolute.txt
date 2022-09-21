@@ -577,3 +577,15 @@ C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplicat
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\obj\Release\DropDownListApplication.csproj.CopyComplete
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\obj\Release\DropDownListApplication.dll
 C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\obj\Release\DropDownListApplication.pdb
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.config
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Extensions.Logging.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Owin.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.Owin.Logging.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Owin.dll
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Extensions.Logging.xml
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\Microsoft.Owin.xml
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.xml
+C:\Projects\XML-Project\XML-Project\DropDownListApplication\DropDownListApplication\bin\NLog.Owin.Logging.xml

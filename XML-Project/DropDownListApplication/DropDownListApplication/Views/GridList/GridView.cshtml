@@ -88,7 +88,7 @@
     <div style="display: flex;">
         <div style="display: flex; max-height: 250px; overflow-y: scroll; width: 100%; " class="tablescroll">
             <table class="table " style=" width: 100%; border: 1px solid black; margin-bottom: 0px; margin-left: 25px">
-                <thead >
+                <thead>
                     <tr style=" background-color: #a59c9c; position: sticky; top: 0px;">
                         <th class="tabHead">
                             Level 1
@@ -127,9 +127,9 @@
     <br />
     <br />
     <div style="display:flex">
-        <div id="Grid"  style="display: flex; max-height: 250px; overflow-y: scroll; width: 100%; " class="tablescroll">
+        <div id="Grid" style="display: flex; max-height: 250px; overflow-y: scroll; width: 100%; " class="tablescroll">
             <table class="table" id="mytable" style=" width: 100%; margin-bottom: 0px; margin-left: 25px; border: 1px solid black">
-                <thead >
+                <thead>
                     <tr style=" background-color: #a59c9c; position: sticky; top: 0px; width:100%">
                         <th class="tabHead">
                             Key
@@ -148,12 +148,9 @@
             <input type="submit" value="Export" class="btn tag-button" id="btnExport" name="button" onclick="importHTML()" style="width: 100px;" />
         </div>
     </div>
-    
-    </div>
-<style>
-    
 
-    
+</div>
+<style>
 </style>
 
 
@@ -210,18 +207,23 @@
                 tblArr.push({ key: key, value: value })
 
             }
+
+           
+
             //ajax call to send the second table grid to controller
-            var objectArray = JSON.stringify({ 'exportExcel': tblArr });
-            var Filename =$('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '');
+            var objectArray = JSON.stringify({ 'exportExcel': tblArr,'fileName': filename });
+
+            console.log(objectArray);
+            console.log(filename);
             debugger
             $.ajax({
-
                 url: "@Url.Action("Export")",
                 contentType: 'application/json; charset=utf-8',
                 dataType: 'json',
                 type: 'POST',
-
                 data: objectArray,
+                @*data: { objectArray, fileName: filename},*@
                 success: function (data) {
                     debugger
                 }
@@ -243,18 +245,25 @@
             switch (data) {
                 case 1:
                     document.getElementById("SecondDropDown").options.length = 1;
+                    break;
                 case 2:
                     document.getElementById("ThirdDropDown").options.length = 1;
+                    break;
                 case 3:
-                    document.getElementById("FourthDropDown").options.length =1;
+                    document.getElementById("FourthDropDown").options.length = 1;
+                    break;
                 case 4:
                     document.getElementById("FifthDropDown").options.length = 1;
+                    break;
                 case 5:
                     document.getElementById("SixthDropDown").options.length = 1;
+                    break;
                 case 6:
                     document.getElementById("SeventhDropDown").options.length = 1;
+                    break;
                 case 7:
                     document.getElementById("SeventhDropDown").options.length = 1;
+                    break;
             }
         }
 
@@ -262,7 +271,6 @@
         let a;
         function fileUpload() {
             var files = $("#FileUpload1").get(0).files
-            debugger
                     var fileData = new FormData();
                     for (var i = 0; i < files.length; i++) {
                         fileData.append(files[i].name, files[i]);
@@ -274,7 +282,6 @@
                 processData: false,
                 data: fileData,
                 success: function (data) {
-                    console.log();
                     var code = []
                     var value = []
                     var drop1 = document.getElementById("FistDropDown");
@@ -313,23 +320,36 @@
 
         //second DropDownList Script
         function secondDropDown() {
+            
             clear(1)
+            clear(2)
+            clear(3)
+            clear(4)
+            clear(5)
+            clear(6)
+            clear(7)
+
+      
+            let index = 0;
             var nodeName = "/"+ document.getElementById("FistDropDown").value
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            index = document.getElementById("FistDropDown").selectedIndex;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: nodeName, uploadFileName: filename  },
+                data: { tagName: nodeName, uploadFileName: filename, nodeindex: index  },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
-                    var value = []
+                    var value=[]
                     var drop1 = document.getElementById("SecondDropDown");
                     for (var i = 0; i < data.length; i++) {
                         code.push(data[i].code)
                         var option = document.createElement("option")
                         option.text = data[i].code
                         option.id = String(i) + " SecondDropDown";
+                        @*option.index = data[i].code*@
+                       
                         drop1.add(option)
                         if (data[i].value === null) {
                             value.push("NULL")
@@ -338,13 +358,17 @@
                         } else {
                             value.push(data[i].value)
                             a = value;
-
                         }
                     }
+                    let z= 0;
                     drop1.addEventListener("change", () => {
+                        console.log("value", value[code.indexOf(drop1.value)])
                         if (value[code.indexOf(drop1.value)] == "NULL") {
-                            document.getElementById("para").value = ""
+                            document.getElementById("para").value = "";
+                            console.log("z", ++z);
                             thirdDropDown();
+                         
+                            console.log("hai");
                         } else {
                             clear(2)
                            b= value[code.indexOf(drop1.value)]
@@ -352,8 +376,6 @@
                             document.getElementById("para").value= value[code.indexOf(drop1.value)]
                         }
                     })
-
-
                 }
             });
 
@@ -361,17 +383,21 @@
         }
         function thirdDropDown() {
             clear(2)
+            let index = 0;
             var nodeName2 = document.getElementById("FistDropDown").value
             var nodeName = document.getElementById("SecondDropDown").value
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             var result = "//" + nodeName2 + "/" + nodeName;
+            index = document.getElementById("SecondDropDown").selectedIndex;
             $.ajax({
                type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: result, uploadFileName: filename},
+                data: { tagName: result, uploadFileName: filename, nodeindex: index},
                 datatype: 'json',
                 success: function (data) {
-                       var code = []
+                    console.log("data",data);
+                    console.log("data length",data.length);
+                    var code = []
                     var value = []
                     var drop1 = document.getElementById("ThirdDropDown");
                        for (var i = 0; i < data.length; i++) {
@@ -408,16 +434,19 @@
         //fourth DropDownList Script
         function fourthDropDown() {
             clear(3)
+            let index = 0;
             var nodeName2 = document.getElementById("SecondDropDown").value
             var nodeName = document.getElementById("ThirdDropDown").value
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             var result = "//" + nodeName2 + "/" + nodeName;
+            index=document.getElementById("ThirdDropDown").selectedIndex;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: result, uploadFileName: filename },
+                data: { tagName: result, uploadFileName: filename, nodeindex: index },
                 datatype: 'json',
                 success: function (data) {
+
                     var code = []
                     var value = []
                     var drop1 = document.getElementById("FourthDropDown");
@@ -459,10 +488,11 @@
             var nodeName = document.getElementById("FourthDropDown").value
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
             var result = "//" + nodeName2 + "/" + nodeName;
+            let index = document.getElementById("FourthDropDown").selectedIndex;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: result, uploadFileName: filename },
+                data: { tagName: result, uploadFileName: filename, nodeindex: index},
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -494,7 +524,7 @@
                             document.getElementById("para").value= ""
                             document.getElementById("para").value= value[code.indexOf(drop1.value)]
                         }
-                    })
+                    })                   
                 }
             });
         }
@@ -506,10 +536,11 @@
             var nodeName = document.getElementById("FifthDropDown").value
             var result = "//" + nodeName2 + "/" + nodeName;
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            let index = document.getElementById("FifthDropDown").selectedIndex;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: result, uploadFileName: filename },
+                data: { tagName: result, uploadFileName: filename, nodeindex: index },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -542,6 +573,7 @@
                             document.getElementById("para").value =value[code.indexOf(drop1.value)]
                         }
                     })
+                   
                 }
             });
         }
@@ -553,10 +585,11 @@
             var nodeName = document.getElementById("SixthDropDown").value
             var result = "//" + nodeName2 + "/" + nodeName;
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '')
+            let index = document.getElementById("SixthDropDown").selectedIndex;
             $.ajax({
                 type: "POST",
                 url: "@Url.Action("GetFirstChileNodeByName")",
-                data: { tagName: result, uploadFileName: filename },
+                data: { tagName: result, uploadFileName: filename, nodeindex: index },
                 datatype: 'json',
                 success: function (data) {
                     var code = []
@@ -589,6 +622,7 @@
                             document.getElementById("para").value =  value[code.indexOf(drop1.value)]
                         }
                     })
+                    
                 }
             });
         }
